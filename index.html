@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saurabh Kamboj | Cloud & DevOps Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation / Header -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">SK</a>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" id="nav-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Home Section -->
+  <section id="home" class="section hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Hello, I’m <span>Saurabh Kamboj</span></h1>
+        <p>Aspiring Cloud & DevOps Engineer specializing in AWS, Terraform, Docker, and automation.</p>
+        <div class="hero-links">
+          <a href="mailto:SaurabhKamboj576@gmail.com" class="btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="Saurabh Kamboj">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am an AWS Certified Cloud & DevOps Enthusiast with hands-on experience in cloud infrastructure, automation, and system administration. ...</p>
+      <ul class="skills-list">
+        <li>Cloud & AWS (EC2, S3, Lambda, IAM, VPC, etc.)</li>
+        <li>Infrastructure as Code (Terraform, CloudFormation)</li>
+        <li>Containers & Orchestration (Docker, Kubernetes)</li>
+        <li>Programming (Python, Bash, Java, C)</li>
+        <li>Databases (SQL, MySQL, NoSQL)</li>
+        <li>Monitoring & Tools (CloudWatch, GitHub Actions, Grafana)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <!-- Each project card -->
+        <div class="project-card">
+          <h3>Infrastructure Automation with Terraform</h3>
+          <p>Deployed Flask app across multiple environments using Terraform on AWS.</p>
+        </div>
+        <div class="project-card">
+          <h3>AWS Serverless Log Monitoring</h3>
+          <p>Used Lambda, S3, SNS & Python to monitor logs and alert anomalies.</p>
+        </div>
+        <!-- add more cards similarly -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <h2>Experience & Volunteering</h2>
+      <div class="exp-item">
+        <h3>AWS User Group Mississauga – Volunteer</h3>
+        <span>Aug 2025 – Present</span>
+        <ul>
+          <li>Organized meetups, handled speaker coordination, technical setup.</li>
+          <li>Guided newcomers on AWS topics.</li>
+        </ul>
+      </div>
+      <div class="exp-item">
+        <h3>UPS – IT Technician</h3>
+        <span>Jul 2023 – Mar 2025</span>
+        <ul>
+          <li>Supported 150+ users, handled tickets for hardware & software issues.</li>
+          <li>Maintained documentation, configured systems, etc.</li>
+        </ul>
+      </div>
+      <!-- more experience items -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p>📍 Brampton, ON, Canada</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Saurabh Kamboj | Built with ♥</p>
+    </div>
+  </footer>
+
+</body>
+</html>
